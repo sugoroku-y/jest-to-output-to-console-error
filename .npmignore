@@ -1,0 +1,13 @@
+/lib/*.map
+/src/
+/coverage/
+/.vscode/
+*.tgz
+/tests/
+/.eslint*
+/.prettier*
+/jest.*
+/jest-*
+tsconfig*.json
+/tools/
+/.github/
