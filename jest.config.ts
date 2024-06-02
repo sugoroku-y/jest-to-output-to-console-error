@@ -2,7 +2,7 @@ import type { Config } from 'jest';
 
 export default {
     projects: [
-        // ’Êí‚Ìjest‚Å‚ÌƒeƒXƒg
+        // é€šå¸¸ã®jestã§ã®ãƒ†ã‚¹ãƒˆ
         {
             displayName: 'test',
             transform: {
@@ -17,15 +17,15 @@ export default {
             setupFilesAfterEnv: ['./tests/setupTests.ts'],
         },
         ...(process.env['npm_config_lint']
-            ? // npm test --lint‚ÅÀs‚·‚é‚ÆˆÈ‰º‚à’Ç‰Á‚ÅƒeƒXƒg‚·‚é
+            ? // npm test --lintã§å®Ÿè¡Œã™ã‚‹ã¨ä»¥ä¸‹ã‚‚è¿½åŠ ã§ãƒ†ã‚¹ãƒˆã™ã‚‹
               [
-                  // eslint‚Å‚Ìƒ`ƒFƒbƒN
+                  // eslintã§ã®ãƒã‚§ãƒƒã‚¯
                   {
                       displayName: 'eslint',
                       runner: 'eslint',
                       testMatch: ['**/*.ts', '**/*.js', '**/*.mjs', '**/*.cjs'],
                   },
-                  // prettier‚Å®Œ`‚µ‚Ä·ˆÙ‚ª‚È‚¢‚©ƒ`ƒFƒbƒN
+                  // prettierã§æ•´å½¢ã—ã¦å·®ç•°ãŒãªã„ã‹ãƒã‚§ãƒƒã‚¯
                   { preset: '@sugoroku-y/jest-runner-prettier' },
               ]
             : []),

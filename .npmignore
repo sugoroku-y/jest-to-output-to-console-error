@@ -1,8 +1,9 @@
-/lib/*.map
+/lib/**/*.map
 /src/
 /coverage/
 /.vscode/
 *.tgz
+*.zip
 /tests/
 /.eslint*
 /.prettier*
