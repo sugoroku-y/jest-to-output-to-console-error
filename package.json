@@ -1,7 +1,7 @@
 {
     "name": "@sugoroku-y/jest-to-output-to-console-error",
     "version": "0.0.1",
-    "description": "TODO jest-to-output-to-console-errorの説明を書く",
+    "description": "The custom matcher to check output to console.error",
     "license": "MIT",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
