@@ -33,7 +33,7 @@ import `@sugoroku-y/jest-to-output-to-console-error`;
 
 ```ts
 expect(() => {
-    console.error('console.error message');
+  console.error('console.error message');
 }).toOutputToConsoleError(['console.error message']);
 ```
 
